@@ -18,3 +18,8 @@
 
 这篇代码是介绍**企业微信群机器人（一对多）**。企业微信通知（一对一） 请参考[这一篇](https://github.com/litonchen/qywx)
 
+
+ - [ ] **- 群机器人**
+群机器人不能单独使用，必须先建立企业微信聊天群才能建立群机器人。创立企业微信群后，复制webhook就行。
+**1.复制webhook**
+![enter image description here](https://raw.githubusercontent.com/litonchen/wx_bot/main/png/6.webhook.png)
