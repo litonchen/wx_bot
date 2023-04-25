@@ -1,13 +1,12 @@
 import qywx as wx
 #### 群发机器人的webhook ####
-bot_url="https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=6c67e6ae-8986-4651-8e89-bab9755c7a1b"
+bot_url=""
 #############################
 
-
+content = "企业微信群机器人通知"
 
 # 发送短信
-content = "企业微信群机器人通知"
-wx.sent_work_msg(bot_url,content)
+# wx.sent_work_msg(bot_url,content)
 
 # 发送富文字
 mkd_msg = {
@@ -17,4 +16,8 @@ mkd_msg = {
                     "> 卖出204001，单笔十万：<font color=\"warning\">{} 十万</font> \n".format('10')  +  # 字体颜色(只支持3种内置颜色)
                     "> 卖出131810，单笔千元：<font color=\"warning\">{} 千元</font>".format("5")   # 绿色：info、灰色：comment、橙红：warning
             }
-wx.sent_work_markdown(bot_url,mkd_msg)
+# wx.sent_work_markdown(bot_url,mkd_msg)
+
+# 发送图片
+img = 'images.png'
+wx.sent_work_img(bot_url,img)
