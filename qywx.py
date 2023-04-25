@@ -1,4 +1,4 @@
-import json,requests
+import json,requests,base64,hashlib
 
 ###############    企业微信：群通知      ###############  
 def sent_work_msg(webhook_url,content ):
@@ -87,3 +87,4 @@ def send_markdown(access_token,agentid,mkd_msg) :
                }
     r = requests.post("https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token={}".format(access_token), data=json.dumps(send_data))
     # log.info(('markdown：%s'%send_data))
+    
