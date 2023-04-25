@@ -1,4 +1,5 @@
-- **企业微信通知**
+
+ - **企业微信通知**
 
 
 企业微信通知有两种方式，一种是对话机器人，一种是群通知。
@@ -15,6 +16,7 @@
  - [ ] **- 对话机器人**
 
 对话机器人是一个微信企业号的应用，可以当成是一个已经加入对方企业微信的好友，因此能直接发送信息。
+对话机器人共需要企业ID、AgentID、Secret三组入参
 
 首先登入注册一个企业微信，登入[企业微信网页](https://work.weixin.qq.com/)：https://work.weixin.qq.com/
 然后按照以下流程。
@@ -31,3 +33,6 @@
 
 **5.复制AgentID、Secret**
 ![](https://raw.githubusercontent.com/litonchen/wx_bot/main/png/5.secret.png?token=GHSAT0AAAAAACAP34VGJNMZ5IODBZLDYFDCZCHQN5Q)
+
+6.企业ID
+![enter image description here](https://raw.githubusercontent.com/litonchen/wx_bot/main/png/8.corpid.png)
